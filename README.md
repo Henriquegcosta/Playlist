@@ -9,4 +9,5 @@
 Nessa primeira versao do projeto eu utilizei 
 
 > HTML | CSS | JS e para prototipagem o FIGMA (https://www.figma.com/file/kwmbLTxNeFmUVE3QN5f5GZ/Playlist?node-id=0%3A1)
+
 > Eu escolhi esse tom de verde com esse preto atras por ser duas cores que aparentam ter uma sensaçao de calma, paz e natureza
