@@ -1,9 +1,15 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     overflow-x: hidden;
+}
+
+#User{
+    color: rgb(134, 119, 39);
+    font-weight: bold
 }
 
 
@@ -43,7 +49,10 @@ a{
     left: 15px;
 
     border-radius: 50%;
-    background: rgba(17, 17, 17, 0.7);
+    background-image: url(/images/1652563805874.jpg);
+    background-size: cover;
+    background-position: 50%;
+
 
 }
 .texts{
@@ -91,6 +100,7 @@ a{
     z-index: 1;
 
     border-radius: 20px;
+    
 }
 .plays{
     position: relative;
@@ -109,8 +119,10 @@ a{
     border-radius: 50px;
     cursor: pointer;
     transition: all .4s;
-    
+    box-shadow: 1px 3px 15px 5px;
 }
+
+
 
 .studying{
     background-size: cover;
@@ -136,7 +148,7 @@ a{
 .plays p{
     position: relative;
     z-index: 10;
-    bottom: 8%;
+    bottom: 10%;
 
     font-size: 1.4rem;
     font-weight: bold;
@@ -144,12 +156,12 @@ a{
     transition: all .3s;
 }
 .plays:hover{
-    transform: scale(1.1);
+    animation: pulse 2s infinite;
 }
 .plays:hover p{
     font-size: 1.6rem;
     letter-spacing: 1px;
-    bottom: 9%;
+    bottom: 12%;
 }
 .plays_add{
     position: relative;
@@ -326,64 +338,64 @@ a{
 .jkb{
     background-size: cover;
     background-position: 50%;
-    background-image: url(https://i.ytimg.com/vi/wZMlVi43YTw/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBquoZBR7D5idMyFJ3WsbIDbXE48g);
+    background-image: url(/images/Money.jpg);
 }
 .ordinary{
     background-size: cover;
     background-position: 50%;
-    background-image: url(https://i.ytimg.com/vi/MURua52_YPg/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBTo8tRmSOBk40Hhe3OJXLAaj-j6Q);
+    background-image: url(/images/ordinary.jpg);
 }
 .royalt{
     background-size: cover;
     background-position: 50%;
-    background-image: url(https://i.ytimg.com/vi/lW9ep22YmlM/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCmnp5MwEhoWKfm8ZPTLL3gKK3iXg);
+    background-image: url(/images/Royality.jpg);
 
 }
 .enemy{
     background-size: cover;
     background-position: 50%;
-    background-image: url(https://i.ytimg.com/vi/1xDCSVY3oEU/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDmx56kOW6IIMeXfLMcZw1f1a-1Bw);
+    background-image: url(/images/Enemy.jpg);
 
 }
 .glimpse{
     background-size: cover;
     background-position: 50%;
-    background-image: url(https://i.ytimg.com/an_webp/FvOpPeKSf_4/mqdefault_6s.webp?du=3000&sqp=CLCYj5kG&rs=AOn4CLDGYlyaQelDKa-BzqKQf0qY1tnNyQ);
+    background-image: url(/images/glimpse.jpg);
 }
 .modus{
     background-size: cover;
     background-position: 50%;
-    background-image: url(https://i.ytimg.com/an_webp/Vu0nRz_bQ0Y/mqdefault_6s.webp?du=3000&sqp=CKiKj5kG&rs=AOn4CLBbrlzReXnrRUGNMs1B7XmW87J5Cg);
+    background-image: url(/images/modus.jpg);
 }
 .likeyd{
     background-size: cover;
     background-position: 50%;
-    background-image: url(https://i.ytimg.com/an_webp/Bv-1BnoB75k/mqdefault_6s.webp?du=3000&sqp=COOjj5kG&rs=AOn4CLBOVJaheQgl8GK66QzyoiVmMzJo4g);
+    background-image: url(/images/likeyd.jpg);
 }
 .ew{
     background-size: cover;
     background-position: 50%;
-    background-image: url(https://i.ytimg.com/an_webp/UGB_Bsm5Unk/mqdefault_6s.webp?du=3000&sqp=COilj5kG&rs=AOn4CLC_tzC9milc-AN-29aXl-52RvsqJw);
+    background-image: url(/images/ew.jpg);
 }
 .needs{
     background-size: cover;
     background-position: 50%;
-    background-image: url(https://i.ytimg.com/vi/QxA3ULAxyyA/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCclQUMmRTZZylOhhrn0Uo4uoxPGQ);
+    background-image: url(/images/needs.jpg);
 }
 .fivefive{
     background-size: cover;
     background-position: 50%;
-    background-image: url(https://i.ytimg.com/vi/qU9mHegkTc4/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCWMGvMbjH5sLL6kLCVJjB-mUDiLw);
+    background-image: url(/images/505.jpg);
 }
 .asthe{
     background-size: cover;
     background-position: 50%;
-    background-image: url(https://i.ytimg.com/vi/yS2KyK3pqj4/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBH9238GYdIUcGgyYXPHH_3cXJozQ);
+    background-image: url(/images/asthe.jpg);
 }
 .machine{
     background-size: cover;
     background-position: 50%;
-    background-image: url(https://i.ytimg.com/vi/-047ko4v05s/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDLr0X9_dW_K_sb4fu8q_GZUwNGYw);
+    background-image: url(/images/machineh.jpg);
 }
 
 
@@ -503,7 +515,8 @@ a{
     background-size: cover;
     background-position: 50% ;
     background-repeat: no-repeat;
-    background-image: url(https://i.ytimg.com/vi/G2odiIIynYk/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBRNPPP4xezFDE8BCY662th-NcUXA);
+    background-image: url(/images/eminem.jpg);
+    width: 400px;
     height: 400px;
     border-radius: 50%;
     overflow: visible;
@@ -518,7 +531,7 @@ a{
     background-size: cover;
     background-position: 50% ;
     background-repeat: no-repeat;
-    background-image: url(https://i.ytimg.com/vi/wZMlVi43YTw/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBquoZBR7D5idMyFJ3WsbIDbXE48g);
+    background-image: url(/images/Money.jpg);
     width: 400px;
     height: 400px;
     border-radius: 50%;
@@ -534,7 +547,7 @@ a{
     background-size: cover;
     background-position: 50% ;
     background-repeat: no-repeat;
-    background-image: url(https://i.ytimg.com/an_webp/M5In0x4YXLw/mqdefault_6s.webp?du=3000&sqp=CNjtjpkG&rs=AOn4CLCOWLMgdU01w3_ZAsbTFQwmDWMIQQ);
+    background-image: url(/images/ordinary.jpg);
     width: 400px;
     height: 400px;
     border-radius: 50%;
@@ -550,7 +563,7 @@ a{
     background-size: cover;
     background-position: 50% ;
     background-repeat: no-repeat;
-    background-image: url(https://i.ytimg.com/an_webp/M5In0x4YXLw/mqdefault_6s.webp?du=3000&sqp=CNjtjpkG&rs=AOn4CLCOWLMgdU01w3_ZAsbTFQwmDWMIQQ);
+    background-image: url(/images/Royality.jpg);
     width: 400px;
     height: 400px;
     border-radius: 50%;
@@ -566,7 +579,7 @@ a{
     background-size: cover;
     background-position: 50% ;
     background-repeat: no-repeat;
-    background-image: url(https://i.ytimg.com/an_webp/M5In0x4YXLw/mqdefault_6s.webp?du=3000&sqp=CNjtjpkG&rs=AOn4CLCOWLMgdU01w3_ZAsbTFQwmDWMIQQ);
+    background-image: url(/images/Enemy.jpg);
     width: 400px;
     height: 400px;
     border-radius: 50%;
@@ -577,27 +590,199 @@ a{
     cursor: pointer;
     border: 1px solid black;
 }
+.musicimg10{
+    position: relative;
+    background-size: cover;
+    background-position: 50% ;
+    background-repeat: no-repeat;
+    background-image: url(/images/glimpse.jpg);
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    overflow: visible;
+    right: 10%;
+    bottom: 10%;
+    transition: all .4s;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.musicimg11{
+    position: relative;
+    background-size: cover;
+    background-position: 50% ;
+    background-repeat: no-repeat;
+    background-image: url(/images/modus.jpg);
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    overflow: visible;
+    right: 10%;
+    bottom: 10%;
+    transition: all .4s;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.musicimg12{
+    position: relative;
+    background-size: cover;
+    background-position: 50% ;
+    background-repeat: no-repeat;
+    background-image: url(/images/likeyd.jpg);
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    overflow: visible;
+    right: 10%;
+    bottom: 10%;
+    transition: all .4s;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.musicimg13{
+    position: relative;
+    background-size: cover;
+    background-position: 50% ;
+    background-repeat: no-repeat;
+    background-image: url(/images/ew.jpg);
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    overflow: visible;
+    right: 10%;
+    bottom: 10%;
+    transition: all .4s;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.musicimg14{
+    position: relative;
+    background-size: cover;
+    background-position: 50% ;
+    background-repeat: no-repeat;
+    background-image: url(/images/needs.jpg);
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    overflow: visible;
+    right: 10%;
+    bottom: 10%;
+    transition: all .4s;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.musicimg15{
+    position: relative;
+    background-size: cover;
+    background-position: 50% ;
+    background-repeat: no-repeat;
+    background-image: url(/images/505.jpg);
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    overflow: visible;
+    right: 10%;
+    bottom: 10%;
+    transition: all .4s;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.musicimg16{
+    position: relative;
+    background-size: cover;
+    background-position: 50% ;
+    background-repeat: no-repeat;
+    background-image: url(/images/asthe.jpg);
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    overflow: visible;
+    right: 10%;
+    bottom: 10%;
+    transition: all .4s;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.musicimg17{
+    position: relative;
+    background-size: cover;
+    background-position: 50% ;
+    background-repeat: no-repeat;
+    background-image: url(/images/machineh.jpg);
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    overflow: visible;
+    right: 10%;
+    bottom: 10%;
+    transition: all .4s;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
 .musicimg:hover{
     box-shadow: 1px 3px 15px 5px #000000;
 }
 .musicimg2:hover{
     box-shadow: 1px 3px 15px 5px #000000;
+
 }
 .musicimg3:hover{
     box-shadow: 1px 3px 15px 5px #000000;
+
 }
 .musicimg4:hover{
     box-shadow: 1px 3px 15px 5px #000000;
+
 }
 .musicimg5:hover{
     box-shadow: 1px 3px 15px 5px #000000;
+
 }
 .musicimg6:hover{
     box-shadow: 1px 3px 15px 5px #000000;
+
 }
 .musicimg7:hover{
     box-shadow: 1px 3px 15px 5px #000000;
+
 }
+.musicimg8:hover{
+    box-shadow: 1px 3px 15px 5px #000000;
+
+}
+.musicimg9:hover{
+    box-shadow: 1px 3px 15px 5px #000000;
+
+}
+.musicimg10:hover{
+    box-shadow: 1px 3px 15px 5px #000000;
+
+}
+.musicimg11:hover{
+    box-shadow: 1px 3px 15px 5px #000000;
+
+}
+.musicimg12:hover{
+    box-shadow: 1px 3px 15px 5px #000000;
+
+}
+.musicimg13:hover{
+    box-shadow: 1px 3px 15px 5px #000000;
+
+}
+.musicimg14:hover{
+    box-shadow: 1px 3px 15px 5px #000000;
+
+}
+.musicimg15:hover{
+    box-shadow: 1px 3px 15px 5px #000000;
+
+}
+.musicimg16:hover{
+    box-shadow: 1px 3px 15px 5px #000000;
+
+}
+
 
 .lyrics{
     position: absolute;
@@ -613,54 +798,108 @@ a{
 }
 
 .rotate .musicimg{
-    box-shadow: 1px 3px 15px 5px #000000;
     animation-name: spin;
     animation-duration: 4000ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 .rotate .musicimg2{
-    box-shadow: 1px 3px 15px 5px #000000;
     animation-name: spin;
     animation-duration: 4000ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 .rotate .musicimg3{
-    box-shadow: 1px 3px 15px 5px #000000;
     animation-name: spin;
     animation-duration: 4000ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 .rotate .musicimg4{
-    box-shadow: 1px 3px 15px 5px #000000;
     animation-name: spin;
     animation-duration: 4000ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 .rotate .musicimg5{
-    box-shadow: 1px 3px 15px 5px #000000;
     animation-name: spin;
     animation-duration: 4000ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 .rotate .musicimg6{
-    box-shadow: 1px 3px 15px 5px #000000;
     animation-name: spin;
     animation-duration: 4000ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 .rotate .musicimg7{
-    box-shadow: 1px 3px 15px 5px #000000;
     animation-name: spin;
     animation-duration: 4000ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
+.rotate .musicimg8{
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.rotate .musicimg9{
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.rotate .musicimg10{
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.rotate .musicimg11{
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.rotate .musicimg12{
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.rotate .musicimg13{
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.rotate .musicimg14{
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.rotate .musicimg15{
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.rotate .musicimg16{
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.rotate .musicimg17{
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
 
 .musicimg p{
     position: relative;
@@ -710,12 +949,41 @@ a{
     right: 34%;
     bottom: 45%;
     
-    border-right:50px solid blue;
+    border-right:50px solid #010904;
     cursor: pointer;
     transition: all .4s;
 }
 .leave:hover{
     transform: scale(1.2);
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 88%;
+    top: 32%;
+}
+.icons a{
+    margin-left: 20px;
+}
+.icons a:hover{
+    transform: scale(1.1);
+}
+
+@media (min-width: 1380px){
+    .lyrics{
+        position: absolute;
+        width: 400px;
+        height: 600px;
+        left: 900px;
+        top: 2%;
+        color: white;
+        padding: 20px;
+    
+        background: #010904;
+        border-radius: 60px;
+    }
 }
 
 @media (max-width: 1380px){
@@ -766,9 +1034,28 @@ a{
 @keyframes spin { 
     from { 
         transform: rotate(0deg); 
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
     } to { 
         transform: rotate(360deg); 
+        box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
     }
+
 }
 
 
+@keyframes pulse {
+	0% {
+
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+	}
+
+	70% {
+
+		box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}

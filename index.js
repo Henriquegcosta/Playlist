@@ -3,7 +3,6 @@ var musics = document.getElementById("pagina");
 var rotateee = document.getElementById("paginex");
 
 
-
 function rotatee(){
     rotateee.classList.toggle("rotate");
 }
@@ -30,3 +29,4 @@ function abrir_musicas4(){
 function chamar_pagina(pagina){
     musics.innerHTML = pagina;
 }
+
