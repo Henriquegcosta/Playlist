@@ -315,7 +315,7 @@ a{
 .pastlives{
     background-size: cover;
     background-position: 50%;
-    background-image: url(/images/pastlives.jpg);
+    background-image: url(/images/pastlives2.jpg);
 }
 .eminem{
     background-size: 160px;
@@ -486,7 +486,7 @@ a{
     background-size: cover;
     background-position: 50% ;
     background-repeat: no-repeat;
-    background-image: url(https://i.ytimg.com/vi/pwQX9Vb689w/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDYYYvA0Il0-NAP5IMmnX3ruQMR_A);
+    background-image: url(/images/pastlives2.jpg);
     width: 400px;
     height: 400px;
     border-radius: 50%;
@@ -718,7 +718,50 @@ a{
     transform: scale(1.2);
 }
 
+@media (max-width: 1380px){
+    .playzinha{
+        position: relative;
+        width: 98%;
+        height: 87%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: normal;
+        align-items: center;
+        z-index: 1;
+        border-radius: 20px;
+        overflow: visible;
 
+
+    }
+    .plays{
+        margin-top: 10px;
+        left: 10%;
+    }
+    .plays_add{
+        left: 20%;
+        top: 1%;
+    }
+    .playlists{
+        position: absolute;
+        width: 98vw;
+        height: 140vh;
+        top: 270px;
+        right: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    
+        background: #AFAFAF;
+        border-radius: 20px;
+        overflow: hidden;
+    
+    }
+
+
+}
 
 @keyframes spin { 
     from { 
