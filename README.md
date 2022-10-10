@@ -2,7 +2,7 @@
 
 ![Project Image](playlist.png)
 
-> Esse site possui minhas musicas favoritas separado em playlist musicais
+> Esse site possui minhas musicas favoritas separado em playlist
 
 ---
 
