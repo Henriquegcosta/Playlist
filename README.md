@@ -40,7 +40,7 @@ Esse projeto foi passado pelo Professor Gabriel no curso do Instituto Proa. Onde
 #### Codigos aprendidos
 
 ```javascript
-    element.classList.toggle("rotate");
+    element.classList.toggle(element);
 ```
 [Voltar para o topo](#Playlist-Musical-V-1.0)
 
